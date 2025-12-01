@@ -1,91 +1,102 @@
-# 🚀 PHPCRM Open Source — Open Source CRM Software
+<h1 align="center">🚀 PHPCRM — Open Source CRM Software</h1>
+<p align="center"><b>Self-hosted CRM to manage leads, customers, tasks & sales — free for commercial use.</b></p>
 
-PHPCRM is a powerful, self-hosted Customer Relationship Management (CRM) system designed to boost business efficiency and accelerate sales growth.
-
-This open-source version is built especially for developers and companies who need a CRM solution that is:
-✔ Easy to customize  
-✔ Fully self-hosted  
-✔ Lightweight & scalable  
-✔ Free for commercial use  
+<p align="center">
+  <a href="https://www.phpcrm.com/download/"><b>📥 Download</b></a> •
+  <a href="https://www.phpcrm.com/cloud/"><b>☁️ Cloud CRM</b></a> •
+  <a href="https://www.phpcrm.com/crm-demo/"><b>👀 Live Demo</b></a> •
+  <a href="https://www.phpcrm.com/contact/"><b>📩 Contact</b></a>
+</p>
 
 ---
 
-## 🧩 Core Features / Modules
-- 📊 Dashboard with key CRM metrics
-- 🧲 Lead Management
-- 👥 Customer Management
-- 📝 Notes & Activity Logging
-- 📅 Task / Follow-up Scheduling
-- 🔐 Secure User Login System
-- 🔑 Change Password
+## 🔥 About PHPCRM
+
+PHPCRM is a powerful web-based Customer Relationship Management (CRM) software offered in two editions —  
+**PHPCRM Open-Source (free, self-hosted)** and **PHPCRM Cloud (premium, fully hosted).**
+
+### 🟢 PHPCRM Open-Source (Free Edition)
+Ideal for businesses and developers who want a CRM solution that is:
+- ✔ Free to use & modify  
+- ✔ Fully customizable & self-hosted  
+- ✔ Lightweight & scalable  
+- ✔ No monthly subscription fees  
+
+It includes core CRM modules:
+leads, customers, follow-ups, notes, tasks, reminders, login system and dashboard metrics.
+
+### 🔵 PHPCRM Cloud (Premium Edition)
+Designed for businesses that want a ready-to-use CRM without technical maintenance.  
+It includes everything in the open-source edition plus:
+- 🔐 Secure hosting
+- 🧩 Advanced CRM modules
+- 📦 Automatic updates
+- 🛡 Daily backup & monitoring
+- 🧑‍💻 Full maintenance handled by the PHPCRM team
+
+👉 Self-host if you prefer control & customization  
+👉 Use Cloud if you need a zero-maintenance solution
+
+---
+
+## 🌟 Key Features / Modules
+
+### CRM & Sales
+- Lead management
+- Customer management
+- Customer pipeline tracking
+- Conversion workflow
+
+### Tasks & Activities
+- Notes & call logs
+- Task / follow-up scheduling
+- Activity timeline history
+
+### Dashboard & Performance
+- Lead analytics
+- Activity stats
+- Overview of daily CRM operations
+
+### Authentication & Security
+- Secure login
+- Password change
+- Session protection
+
+---
+
+## 🧭 Who Can Use PHPCRM?
+
+Suitable for:
+| Category | Use-Case |
+|----------|----------|
+| IT Agencies | Deploy CRM for clients |
+| Software Companies | Build SaaS solutions |
+| Freelancers | Sell customized CRM |
+| Businesses | In-house lead & customer tracking |
+| Startups | CRM without recurring cost |
+
+Industries that benefit most:
+🏨 Hotels • 🏠 Real Estate • 🧾 Contractors • 🚖 Taxi • 🏥 Clinics • 📚 Education • 🚗 Car Rentals • 🧾 Insurance • Many more
 
 ---
 
 ## 🛠 Technology Stack
+
 | Component | Specification |
 |----------|---------------|
 | Backend | PHP 7.4+ (PHP 8+ recommended) |
 | Database | MySQL / MariaDB |
-| Architecture | MVC (Custom Pure PHP — No Frameworks) |
+| Architecture | MVC (Custom PHP — No Framework Required) |
 | Frontend | Bootstrap 5 |
-| Database Driver | mysqli |
+| DB Driver | mysqli |
+| Hosting | Shared / VPS / Cloud / Localhost |
 
 ---
 
 ## 📥 Installation Guide
-1. Extract the CRM source into your web directory (local or server)
-2. Create a new MySQL database
-3. Import the SQL file:  
-   `/database/phpcrm_install.sql`
-4. Update DB credentials in:  
-   `/app/config/database.php`
-5. Run the CRM in browser:
 
- 
----
-
-## 🔑 Default Admin Login
-| Field | Details |
-|------|---------|
-| **Email** | admin@phpcrm.com |
-| **Password** | 123456 |
-
-⚠️ *For security reasons, change the default password after first login.*
-
----
-
-## 🔧 Customization Possibilities
-PHPCRM is built for full flexibility. Developers can:
-- Add / remove custom modules
-- Modify UI & customer views
-- Extend database structure
-- Rebrand CRM for clients
-- Integrate APIs (WhatsApp, Email, SMS, Payments, etc.)
-
----
-
-## 📜 License
-This project is released under the **MIT License** — meaning:
-✔ Free to use  
-✔ Free to modify  
-✔ Free to commercialize  
-
-⚠️ Only requirement: retain original copyright notice.
-
----
-
-## 🌐 Project Website
-🔗 https://www.phpcrm.com
-
----
-
-## 🤝 Contributing & Support
-Open-source support is community-driven.  
-Contributions — code, documentation, feature requests — are welcome.
-
----
-
-### ⭐ Thank you for choosing PHPCRM — Open Source CRM
-
-If you like this project, please star ⭐ the repository — it motivates contributors and helps the project grow!
-
+1️⃣ Extract the CRM into web directory  
+2️⃣ Create a new MySQL database  
+3️⃣ Import SQL → `/database/phpcrm_install.sql`  
+4️⃣ Update DB config → `/app/config/database.php`  
+5️⃣ Open CRM in browser:
