@@ -100,7 +100,7 @@ Industries that benefit most:
 3️⃣ Import SQL → `/database/phpcrm_install.sql`  
 4️⃣ Update DB config → `/app/config/database.php`  
 5️⃣ Open CRM in browser:
-| http://localhost/your-folder/public/
+| localhost/your-folder/public/
 ---
 
 ## 🔑 Default Admin Login
