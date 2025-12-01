@@ -1,4 +1,4 @@
-# 🚀 PHPCRM Open Source — Open Source CRM
+# 🚀 PHPCRM Open Source — Open Source CRM Software
 
 PHPCRM is a powerful, self-hosted Customer Relationship Management (CRM) system designed to boost business efficiency and accelerate sales growth.
 
@@ -39,4 +39,53 @@ This open-source version is built especially for developers and companies who ne
    `/database/phpcrm_install.sql`
 4. Update DB credentials in:  
    `/app/config/database.php`
-5. Run the CRM in browser:  
+5. Run the CRM in browser:
+
+ 
+---
+
+## 🔑 Default Admin Login
+| Field | Details |
+|------|---------|
+| **Email** | admin@phpcrm.com |
+| **Password** | 123456 |
+
+⚠️ *For security reasons, change the default password after first login.*
+
+---
+
+## 🔧 Customization Possibilities
+PHPCRM is built for full flexibility. Developers can:
+- Add / remove custom modules
+- Modify UI & customer views
+- Extend database structure
+- Rebrand CRM for clients
+- Integrate APIs (WhatsApp, Email, SMS, Payments, etc.)
+
+---
+
+## 📜 License
+This project is released under the **MIT License** — meaning:
+✔ Free to use  
+✔ Free to modify  
+✔ Free to commercialize  
+
+⚠️ Only requirement: retain original copyright notice.
+
+---
+
+## 🌐 Project Website
+🔗 https://www.phpcrm.com
+
+---
+
+## 🤝 Contributing & Support
+Open-source support is community-driven.  
+Contributions — code, documentation, feature requests — are welcome.
+
+---
+
+### ⭐ Thank you for choosing PHPCRM — Open Source CRM
+
+If you like this project, please star ⭐ the repository — it motivates contributors and helps the project grow!
+
