@@ -99,8 +99,8 @@ Industries that benefit most:
 2️⃣ Create a new MySQL database  
 3️⃣ Import SQL → `/database/phpcrm_install.sql`  
 4️⃣ Update DB config → `/app/config/database.php`  
-5️⃣ Open CRM in browser:
-| localhost/your-folder/public/
+5️⃣ Open the CRM in your browser:  localhost/your-folder/public/
+
 ---
 
 ## 🔑 Default Admin Login
