@@ -24,10 +24,6 @@
   <!-- Legal -->
   <img src="https://img.shields.io/badge/License-MIT-green">
 
-  <!-- GitHub -->
-  <img src="https://img.shields.io/github/stars/php-crm/PHPCRM?style=social">
-  <img src="https://img.shields.io/github/forks/php-crm/PHPCRM?style=social">
-  <img src="https://img.shields.io/github/watchers/php-crm/PHPCRM?style=social">
 </p>
 
 <p align="center">
