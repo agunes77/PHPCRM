@@ -1,13 +1,34 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="public/media/crm-logo-white.png">
-    <img src="public/media/crm-logo.png" alt="PHPCRM Logo" width="120">
+    <img src="public/media/crm-logo.png" alt="PHPCRM Logo" width="140">
   </picture>
 </p>
 
-
 <h1 align="center">🚀 PHPCRM — Open Source CRM Software</h1>
-<p align="center"><b>Self-hosted CRM to manage leads, customers, tasks & sales — free for commercial use.</b></p>
+
+<p align="center">
+  <b>Self-hosted CRM to manage leads, customers, tasks & sales — free for commercial use.</b>
+</p>
+
+<p align="center">
+  <!-- Core Tech -->
+  <img src="https://img.shields.io/badge/PHP-7.4%2B-blue">
+  <img src="https://img.shields.io/badge/MySQL-MariaDB-orange">
+  <img src="https://img.shields.io/badge/Bootstrap-5-purple">
+
+  <!-- Project Status -->
+  <img src="https://img.shields.io/badge/Version-v8.1-success">
+  <img src="https://img.shields.io/badge/Status-Actively%20Maintained-brightgreen">
+
+  <!-- Legal -->
+  <img src="https://img.shields.io/badge/License-MIT-green">
+
+  <!-- GitHub -->
+  <img src="https://img.shields.io/github/stars/php-crm/PHPCRM?style=social">
+  <img src="https://img.shields.io/github/forks/php-crm/PHPCRM?style=social">
+  <img src="https://img.shields.io/github/watchers/php-crm/PHPCRM?style=social">
+</p>
 
 <p align="center">
   <a href="https://www.phpcrm.com/download/"><b>📥 Download</b></a> •
@@ -15,6 +36,11 @@
   <a href="https://www.phpcrm.com/crm-demo/"><b>👀 Live Demo</b></a> •
   <a href="https://www.phpcrm.com/contact/"><b>📩 Contact</b></a>
 </p>
+
+<p align="center">
+  ⭐ Star this repository • 🍴 Fork it • 🧑‍💻 Contribute
+</p>
+
 
 ---
 
