@@ -6,4 +6,4 @@ This repository contains Docker support for PHPCRM.
 docker compose up -d
 
 ## Access
-http://SERVER_IP:8080
+http://SERVER_IP:8888
