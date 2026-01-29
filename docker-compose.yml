@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  phpcrm:
+    build: .
+    container_name: phpcrm
+    restart: unless-stopped
+    ports:
+      - "8888:80"
+    depends_on:
+      - phpcrm_db
+    volumes:
+      - phpcrm_data:/var/www/html
+
+  phpcrm_db:
+    image: mariadb:10.6
+    container_name: phpcrm_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: phpcrm
+      MYSQL_USER: phpcrm
+      MYSQL_PASSWORD: phpcrmpass
+    volumes:
+      - phpcrm_db:/var/lib/mysql
+
+volumes:
+  phpcrm_data:
+  phpcrm_db:
